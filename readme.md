@@ -7,7 +7,7 @@ The goal of this project is to make an acessible site that helps kids to learn t
 * make entire site attractive using Bootstrap.
 
 #### development steps:
-* [ ] create basic html structure with 10 clickable options
+* [x] create basic html structure with 10 clickable options
 * [ ] make pop-up window
 * [ ] create buttons on pop-up window to close and go to next
 * [ ] make pop-up window go through all the operations in the table
