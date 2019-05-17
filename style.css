@@ -1,0 +1,69 @@
+.popField{
+    display: none;
+    position: absolute;
+    margin: 10% 0 0 30%;
+    background-color: rgb(159, 186, 202);
+    width: 50%;
+    height: 50%;
+}
+
+.button{
+    cursor: pointer;
+    /* width: 10%; */
+    background-color: pink;
+}
+
+.tablesContainer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    '. title title . .'
+    '. into intro intro .'
+    't1 t2 t3 t4 t5'
+    't6 t7 t8 t9 t10';
+}
+
+.title{
+    color: blue;
+    grid-area: title;
+    margin: 10px;
+}
+
+.intro{
+    grid-area: intro;
+}
+
+.button{
+    width: 100%;
+}
+
+#tableOf1{
+    grid-area: t1;
+}
+#tableOf2{
+    grid-area: t2;
+}
+#tableOf3{
+    grid-area: t3;
+}
+#tableOf4{
+    grid-area: t4;
+}
+#tableOf5{
+    grid-area: t5;
+}
+#tableOf6{
+    grid-area: t6;
+}
+#tableOf7{
+    grid-area: t7;
+}
+#tableOf8{
+    grid-area: t8;
+}
+#tableOf9{
+    grid-area: t9;
+}
+#tableOf10{
+    grid-area: t10;
+}
