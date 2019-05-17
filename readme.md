@@ -9,10 +9,11 @@ The goal of this project is to make an acessible site that helps kids to learn t
 #### development steps:
 * [x] create basic html structure with 10 clickable options
 * [x] make pop-up window
-* [ ] create buttons on pop-up window to close and go to next
+* [x] create buttons on pop-up window to close and go to next
+- changed order to better suit educational goals
+* [ ] style using Bootstrap
 * [ ] make pop-up window go through all the operations in the table
 * [ ] hide answer, make button to reveal answer
-* [ ] style using Bootstrap
 
 ##### personal goals:
 * practice jQuery
