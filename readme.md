@@ -12,6 +12,8 @@ The goal of this project is to make an acessible site that helps kids to learn t
 * [x] create buttons on pop-up window to close and go to next
 - changed order to better suit educational goals
 * [ ] style using Bootstrap
+* * [x] make responsive grid for tables, title and intro
+* * [ ] colour page, add borders
 * [ ] make pop-up window go through all the operations in the table
 * [ ] hide answer, make button to reveal answer
 

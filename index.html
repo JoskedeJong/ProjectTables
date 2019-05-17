@@ -1,88 +1,97 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Learning Tables</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+  <title>Learning Tables</title>
   </head>
 
-  <body>
-    <div class="tablesContainer">
-
-      <div class="title">
-        <h1>Learning tables is Easy!</h1>
-      </div>
-   
-      <div class="title">
+<body>
+  <div class="tablesContainer containter-fluid">
+    
+    <div class="row">
+      <div class="title col-sm-12">
+      <h1>Learning tables is Easy!</h1>
+    </div>
+  
+    <div class="row">
+      <div class="intro jubotron col-sm-8">
         <h4>Choose the multiplication table you want to practice from the list below.</h4>
       </div>
+    </div>
 
-      
-      <div id="tableOf1" class="button">
-        table of 1
+    <div class="row">
+      <div class="col-xl-9">
+          <div class="row">
+            <div id="tableOf1" class="button">
+              table of 1
+            </div>
+          
+            <div id="tableOf2" class="button">
+              table of 2
+            </div>
+
+            <div id="tableOf3" class="button">
+              table of 3 
+            </div>
+
+            <div id="tableOf4" class="button">
+              table of 4
+            </div>
+
+            <div id="tableOf5" class="button">
+              table of 5
+            </div>
+
+            <div id="tableOf6" class="button">
+              table of 6
+            </div>
+
+            <div id="tableOf7" class="button">
+              table of 7 
+            </div>
+
+            <div id="tableOf8" class="button">
+              table of 8
+            </div>
+
+            <div id="tableOf9" class="button">
+              table of 9
+            </div>
+
+            <div id="tableOf10" class="button">
+              table of 10
+            </div>
+        </div> 
       </div>
-    
-      <div id="tableOf2" class="button">
-        table of 2
-      </div>
 
-      <div id="tableOf3" class="button">
-        table of 3 
-      </div>
 
-      <div id="tableOf4" class="button">
-        table of 4
-      </div>
-
-      <div id="tableOf5" class="button">
-        table of 5
-      </div>
-
-      <div id="tableOf6" class="button">
-        table of 6
-      </div>
-      
-      <div id="tableOf7" class="button">
-        table of 7 
-      </div>
-
-      <div id="tableOf8" class="button">
-        table of 8
-      </div>
-
-      <div id="tableOf9" class="button">
-        table of 9
-      </div>
-
-      <div id="tableOf10" class="button">
-        table of 10
-      </div>
-    
-      
-
-      <div class="popField">
-        This field pops up.
-        <div class="contentField">
-
-        </div>
-
-        <div class="buttonField">
-          <div class="closeButton">Close Window</div>
-          <div class="forwardButton">Go Forward</div>
-        </div>
+      <div class="col-sm-3">
+        <img class="img-fluid" src="smartPotato.png"></img>
       </div>
     </div>
-    <!-- Optional JavaScript -->
+
+    <div class="popField">
+      This field pops up.
+      <div class="contentField">
+        content goes here
+      </div>
+
+      <div class="buttonField btn-group justify-content-end">
+        <div class="closeButton btn btn-danger"><kbd>Close Window</kbd></div>
+        <div class="forwardButton btn btn-success"><kbd>Go Forward</kbd></div>
+      </div>
+    </div>
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
-    <script src="script.js"></script>
-  </body>
+  </div>
+</body>
 </html>
