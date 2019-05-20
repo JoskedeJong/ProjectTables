@@ -18,7 +18,7 @@ The goal of this project is to make an acessible site that helps kids to learn t
 * [x] add random background colors
 * [x] make buttons uniquely influence pop-up
 * * [x] make buttons have unique influence
-* [ ] make pop-up window go through all the operations in the table
+* [x] make pop-up window go through all the operations in the table
 * [ ] hide answer, make button to reveal answer
 * [ ] make background 'fade' upon opening popup
 * [ ] make pop-up stay at center of screen
