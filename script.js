@@ -17,4 +17,10 @@ $(document).ready(function(){
         $(".popField").css("background-color","rgb(103, 507, 008)");
     });
     
+    for(x=1; x<=10; x++){
+        var r = Math.random(); 
+        var s = Math.round(Math.random()) * 2 - 1
+        console.log(s);
+        $(".bg"+x).css("transform", "rotate("+(s*r*30)+"deg)");
+    }    
 });

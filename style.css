@@ -9,6 +9,7 @@ body{
     background-color: rgb(159, 186, 202);
     width: 50%;
     height: 50%;
+    z-index: 20;
 }
 
 .button{
@@ -35,4 +36,23 @@ body{
     color: red;
     display: block;
     width: 100%;
+}
+
+.bg{
+    background-color: red;
+    width: 75%;
+    height: 75%;
+    /* transform: rotate(15deg); */
+    position: relative;
+    top: 10%;
+    border-radius: 10%;
+    z-index: 5;
+}
+
+.ct{
+    position: relative;
+    top: -30%;
+    left: 25%;
+    color: black;
+    z-index: 10;
 }
