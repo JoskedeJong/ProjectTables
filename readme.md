@@ -15,6 +15,7 @@ The goal of this project is to make an acessible site that helps kids to learn t
 * * [x] make responsive grid for tables, title and intro
 * * [ ] colour page, add borders
 * [x] add randomly rotating backgrounds
+* [x] add random background colors
 * [ ] make pop-up window go through all the operations in the table
 * [ ] hide answer, make button to reveal answer
 

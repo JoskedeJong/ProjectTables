@@ -39,7 +39,7 @@ body{
 }
 
 .bg{
-    background-color: red;
+    /* background-color: rgb(255, 0, 0); */
     width: 75%;
     height: 75%;
     /* transform: rotate(15deg); */

@@ -22,5 +22,6 @@ $(document).ready(function(){
         var s = Math.round(Math.random()) * 2 - 1
         console.log(s);
         $(".bg"+x).css("transform", "rotate("+(s*r*30)+"deg)");
+        $(".bg"+x).css("background-color", "rgb(255, "+(r*100)+", "+(r*300)+")");
     }    
 });
