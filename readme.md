@@ -16,10 +16,12 @@ The goal of this project is to make an acessible site that helps kids to learn t
 * * [ ] colour page, add borders
 * [x] add randomly rotating backgrounds
 * [x] add random background colors
-* [ ] make buttons uniquely influence pop-up
+* [x] make buttons uniquely influence pop-up
 * * [x] make buttons have unique influence
 * [ ] make pop-up window go through all the operations in the table
 * [ ] hide answer, make button to reveal answer
+* [ ] make background 'fade' upon opening popup
+* [ ] make pop-up stay at center of screen
 
 ##### personal goals:
 * practice jQuery
