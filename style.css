@@ -1,48 +1,39 @@
 body{
-    padding: 20px;
+    background-color: rgb(230, 203, 255);
+}
+
+.containter-fluid{
+    background-color: rgb(230, 203, 255);
+    padding-left: 40px;
 }
 
 .popField{
     display: none;
     position: absolute;
     margin: 10% 0 0 30%;
-    background-color: rgb(159, 186, 202);
     width: 50%;
     height: 50%;
     z-index: 20;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .button{
     cursor: pointer;
     /* width: 10%; */
-    background-color: pink;
+    background-color: rgb(230, 203, 255);
     height: 230px;
 }
 
 
 .title{
     color: blue;
-    grid-area: title;
-    /* margin: 10px; */
-    display: inline-block;
-}
-
-.intro{
-    grid-area: intro;
-    display: inline-block;
-}
-
-.button{
-    color: red;
-    display: block;
-    width: 100%;
+    margin: 10px;
 }
 
 .bg{
-    /* background-color: rgb(255, 0, 0); */
     width: 75%;
     height: 75%;
-    /* transform: rotate(15deg); */
     position: relative;
     top: 10%;
     border-radius: 10%;
@@ -59,5 +50,4 @@ body{
 
 .hiddenCounter{
     display: none;
-    color :grey;
 }

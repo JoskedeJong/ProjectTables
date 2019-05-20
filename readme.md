@@ -13,13 +13,15 @@ The goal of this project is to make an acessible site that helps kids to learn t
 - changed order to better suit educational goals
 * [ ] style using Bootstrap
 * * [x] make responsive grid for tables, title and intro
-* * [ ] colour page, add borders
+* * [x] colour page, add borders
+* * [ ] improve spacing
 * [x] add randomly rotating backgrounds
 * [x] add random background colors
 * [x] make buttons uniquely influence pop-up
 * * [x] make buttons have unique influence
 * [x] make pop-up window go through all the operations in the table
-* [ ] hide answer, make button to reveal answer
+* [ ] make answer-form
+* [ ] make functionality to check answer given in answer-form
 * [ ] make background 'fade' upon opening popup
 * [ ] make pop-up stay at center of screen
 

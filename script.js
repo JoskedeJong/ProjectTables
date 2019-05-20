@@ -32,7 +32,8 @@ $(document).ready(function(){
         var t = Math.random(); 
         var u = Math.round(Math.random()) * 2 - 1;
         $(".bg"+x).css("transform", "rotate("+(s*u*30)+"deg)");
-        $(".bg"+x).css("background-color", "rgb(255, "+(s*255)+", "+(t*255)+")");
+        $(".bg"+x).css("background-color", "rgb(255, "+(s*253)+", "+(t*253)+")");
+        $(".bg"+x).css("border", "4px solid rgb(215, "+((s*253)-40)+", "+((t*253)-40)+")");
 
         $("#tableOf"+x).attr("onclick", "idFunction("+x+")");               //makes buttons preform the idFuction with their x value as parameter
     }    
